@@ -7,17 +7,16 @@ So, with zero programming experience and a lot of help from artificial intellige
 
 🚀 Downloading and Launching Docker:
 
-1. 
-
+1. Download the repository
     ```bash
     git clone https://github.com/mesteve123/ProxmoxSMARTMonitor-DOKER
     ```
+2. Build the Docker image
     ```bash
     cd ProxmoxSMARTMonitor-DOKER
-    ```
-    ```bash
     sudo docker build -t proxmox-smart-monitor .
     ```
+3. Run the Docker container
     ```bash
     sudo docker run -d -p 5000:5000 --name proxmox-smart-monitor proxmox-smart-monitor
     ```
