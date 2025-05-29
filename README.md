@@ -4,17 +4,21 @@ While Proxmox includes a SMART tool, I found it limited and not very user-friend
 
 So, with zero programming experience and a lot of help from artificial intelligence, I created ProxmoxSMARTMonitor, a simple, visual, and easy-to-use web tool to check the health of your disks on a Proxmox server.
 
+
 🚀 Downloading and Launching Docker:
-```bash
+
+1. 
+
+    ```bash
     git clone https://github.com/mesteve123/ProxmoxSMARTMonitor-DOKER
     ```
-```bash
+    ```bash
     cd ProxmoxSMARTMonitor-DOKER
     ```
-```bash
+    ```bash
     sudo docker build -t proxmox-smart-monitor .
     ```
-```bash
+    ```bash
     sudo docker run -d -p 5000:5000 --name proxmox-smart-monitor proxmox-smart-monitor
     ```
 
